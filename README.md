@@ -12,3 +12,9 @@
 - The three customer tables were uploaded and combined into one table.
 - First name and last name columns were merged into one column for the full name
 - Columns were renamed to to align with the Power BI naming conventions and to be consistent across the report
+
+## Milestone 3 Completed
+- Date Table Created
+- Relationships between my dimension table and fact table created in the form of a star schema
+- Measures table created and some key measures added e.g. Total Orders & Profit YTD 
+- Date and Geographic Hierarchies created 
