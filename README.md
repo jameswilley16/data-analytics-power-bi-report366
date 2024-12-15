@@ -1,6 +1,6 @@
 # data-analytics-power-bi-report366
 
-## Milestone 2 completed 
+## Milestone 2 Completed 
 - Orders Table Imported into Power BI 
 - Query editor used to remove the card number column
 -  Date Columns were split using the split column feature into seperate data and time columns  
@@ -18,3 +18,15 @@
 - Relationships between my dimension table and fact table created in the form of a star schema
 - Measures table created and some key measures added e.g. Total Orders & Profit YTD 
 - Date and Geographic Hierarchies created 
+
+## Milestones 4 & 5 Completed 
+- Report pages created (executive summary, customer detail, product detail, stores map)
+- Navigation bar added (still needs to be set up)
+### Customer detail page has been built
+- Cards added for total number of customers & revenue per customer
+- Donut charts added to show customers per country and customers per product category
+- Line graph added showing total customers per year
+- Table added showing the top 20 customers
+- Cards added for top customer (name, their total orders, the total revenue from that customer)
+- Date slicer added so the user can select between different years 
+  
