@@ -30,3 +30,10 @@
 - Cards added for top customer (name, their total orders, the total revenue from that customer)
 - Date slicer added so the user can select between different years 
   
+## Milestone 6 Completed
+- Executive Summary Page updated
+- Card visuals showing Total Revenue, Total Profit and Total Orders
+- Graph showing revenue over time added
+- Donut charts for for revenue by country and revenue by store type added
+- Bar chart for orders by product category added
+- KPI visuals for quarterly revenue, orders, and profit added 
