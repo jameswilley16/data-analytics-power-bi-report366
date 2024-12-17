@@ -36,4 +36,13 @@
 - Graph showing revenue over time added
 - Donut charts for for revenue by country and revenue by store type added
 - Bar chart for orders by product category added
-- KPI visuals for quarterly revenue, orders, and profit added 
+- KPI visuals for quarterly revenue, orders, and profit added
+
+## Milestone 7 Completed
+- Product Detail Page Updated
+- Gauge visuals comparing the current quarterly performance (orders, revenue, profit) to a target of 10% growth from the previous quarter.
+- Area Chart added to show the revenue by product category
+- Top 10 products added as a table
+- Added a scatter graph of Quantity Sold vs Profit per Item
+- Slicer Toolbar added allowing the data to be filtered by category and/or country
+- Filter state cards were added showing the current filtering which had been applied 
