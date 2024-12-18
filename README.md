@@ -46,3 +46,8 @@
 - Added a scatter graph of Quantity Sold vs Profit per Item
 - Slicer Toolbar added allowing the data to be filtered by category and/or country
 - Filter state cards were added showing the current filtering which had been applied 
+
+## Milestone 8 Completed
+- Store Map Visual added
+- Drill through page added so you can click on the different stores on the map and drill through to get more information about a specific store including profit and revenue vs target, top 5 products, and total orders by category
+- Tool tip page added so you can hover over the stores on the map to see the profit vs target for that store 
