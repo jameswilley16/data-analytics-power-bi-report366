@@ -50,4 +50,9 @@
 ## Milestone 8 Completed
 - Store Map Visual added
 - Drill through page added so you can click on the different stores on the map and drill through to get more information about a specific store including profit and revenue vs target, top 5 products, and total orders by category
-- Tool tip page added so you can hover over the stores on the map to see the profit vs target for that store 
+- Tool tip page added so you can hover over the stores on the map to see the profit vs target for that store
+
+## Milestone 9 Completed
+- Cross Filtering of the visuals was fixed
+- Navigation Bar was updated so you can easily navigate from one page to another.
+
