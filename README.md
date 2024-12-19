@@ -56,3 +56,25 @@
 - Cross Filtering of the visuals was fixed
 - Navigation Bar was updated so you can easily navigate from one page to another.
 
+## Milestone 10 Completed
+- Queries were run on the following things using SQL
+- How many staff are there in all of the UK stores?
+- Which month in 2022 has had the highest revenue?
+  - to find the revenue I used REGEXP_REPLACE to remove the £ from the product_price then converted it from text to numeric to allow it to be multiplied by the product quantity
+  - joined the orders table and the products table by the shared product code column
+  - filtered so only orders made in 2022 were shown
+  - extracted month from the order date column, column had to be cast as date as the data type was text, this allowed me to group by month
+  - Ordered with highest revenue at the top of the column
+- Which German store type had the highest revenue for 2022
+   - adapted the previous query
+   - added dim_stores.country_code = 'DE' to the WHERE statement
+   - added an additional join statement, joining dim_stores and orders column by store code
+   - Grouped by store_type instead of month
+- Create a view where the rows are the store types and the columns are the total sales, percentage of total sales and the count of orders
+   - took sales to be revenue
+   - ran a main query adapted from the previous queries which found the total revenue grouped by store type
+   - ran a subsquery which just calculated the total revenue without it being grouped
+   - therefore, (main query/subquery)*100 = percentage of sales for that store type
+- Which product category generated the most profit for the "Wiltshire, UK" region in 2021?
+   - Instead of profit I used revenue again as I couldn't find the cost of the product to take off the price they were sold for.
+   - adapted from the other queries with the WHERE statement being amended accordingly  
